@@ -9,8 +9,23 @@ body{
 }
 
 /* HEADER */
-
-
-
+header{
+  padding: 10px 20px;
+  /* padding-top: 10px; */
+  /* padding-left: 20px; */
+}
+header img, header span{
+  vertical-align: middle;
+}
+header span{
+  font-size: 30px;  
+}
 
 /* MAIN */
+main{
+  background-color: lightgray;
+}
+.container{
+  width: 50%;
+  margin: auto;
+}
