@@ -14,7 +14,6 @@ header{
   /* padding-left: 20px; */
   /* alternativa in basso*/
   padding: 10px 20px;
-  /* height: 70px; */
 }
 header img, header span{
   vertical-align: middle;
@@ -30,7 +29,7 @@ main{
   padding-bottom: 10px;
 }
 .container{
-  width: 50%;
+  width: 70%;
   margin: auto;
   background-color: white;
 }
@@ -66,12 +65,13 @@ main{
 .container.bottom{
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  height: 500px;  /* da togliere */
-
   padding: 30px;
 }
 .new, .today, .up{
   margin-bottom: 30px
+}
+.row-container, .bottom h2{
+  margin-bottom: 15px;
 }
 .check{
   display: inline-block;
@@ -83,15 +83,39 @@ main{
   text-align: center;
   line-height: 20px;
 }
-
+.cross{
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  color: red;
+  border: 1px solid red;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20px;
+}
 .obj{
   color: white;
   border-radius: 10px;
   border: none;
   padding: 5px 10px;
 }
-.obj.editorial{
+.obj.celeste{
   background-color: #44aae9;
+}
+.obj.viola{
+  background-color: #9c72e4;
+}
+.obj.verde{
+  background-color: #64c0a9;
+}
+.obj.arancio{
+  background-color: #f29e33;
+}
+.obj.violetto{
+  background-color: #d863a1;
+}
+.obj.senape{
+  background-color: #b0c926;
 }
 
 
