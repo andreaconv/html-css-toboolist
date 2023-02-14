@@ -10,9 +10,11 @@ body{
 
 /* HEADER */
 header{
-  padding: 10px 20px;
   /* padding-top: 10px; */
   /* padding-left: 20px; */
+  /* alternativa in basso*/
+  padding: 10px 20px;
+  /* height: 70px; */
 }
 header img, header span{
   vertical-align: middle;
@@ -28,4 +30,40 @@ main{
 .container{
   width: 50%;
   margin: auto;
+  background-color: white;
+}
+.container.top{
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-bottom: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin-bottom: 5px;
+  /* margin-top: 30px; */
+}
+.button-task, .button-section{
+  border-radius: 5px;
+}
+.button-task{
+  background-color: rgb(52, 147, 224);
+  color: white;
+  border: none;
+  padding: 5px 10px;
+}
+.button-section{
+  color: gray;
+  border: 1px solid gray;
+  padding: 5px 10px;
+}
+
+
+
+
+
+
+
+
+
+.container.bottom{
+  background-color: blue;
 }
